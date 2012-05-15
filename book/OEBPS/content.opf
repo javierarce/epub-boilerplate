@@ -33,7 +33,9 @@
          * Translator [trl]
            Use for a person or organization who renders a text from one language into another, or from an older 
            form of a language into the modern form.
+
          -->
+
     <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="edt">[NAME LASTNAME]</dc:contributor>
     <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="cov">[NAME LASTNAME]</dc:contributor>
 
@@ -52,8 +54,11 @@
 
   <!-- MANIFEST (mandatory)
        List of all the resources of the book (XHTML, CSS, images,…).
-       The order of item elements in the manifest is not significant.
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3 
   -->
+
   <manifest>
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
     <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
@@ -91,6 +96,8 @@
 
           <itemref idref="chapter-1" />
 
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.4
+
        -->
   <spine toc="ncx">
     <itemref idref="cover" />
@@ -116,6 +123,8 @@
         Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
         colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
         lot (list of tables), notes, preface, and text.
+
+        http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
 
        -->
   <guide>
