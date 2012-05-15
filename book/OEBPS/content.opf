@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ISBN -->
+    <dc:identifier id="bookid" opf:scheme="ISBN">urn:isbn:[ISBN]</dc:identifier>
+    <dc:title>Title</dc:title>
+    <dc:rights>Copyright © [YEAR] [COPYRIGHT HOLDER]. All rights reserved.</dc:rights>
+
+    <!-- BISAC Subject Headings List: http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php-->
+    <dc:subject>[LIST / OF / SUBJECTS]</dc:subject>
+
+    <dc:creator opf:file-as="[LASTNAME, NAME]" opf:role="aut">[NAME LASTNAME]</dc:creator>
+
+    <dc:source>[SOURCE URL]</dc:source>
+
+    <!-- List of contributors
+
+         See: MARC Code List for Relators: http://www.loc.gov/marc/relators/relaterm.html
+
+         Examples: 
+
+         * Editor [edt]
+           Use for a person or organization who prepares for publication a work not primarily his/her own,
+           such as by elucidating text, adding introductory or other critical matter, or technically directing
+           an editorial staff.
+
+         * Cover designer [cov]
+           Use for a person or organization responsible for the graphic design of a book cover,
+           album cover, slipcase, box, container, etc. For a person or organization responsible 
+           for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer.
+
+         * Translator [trl]
+           Use for a person or organization who renders a text from one language into another, or from an older 
+           form of a language into the modern form.
+         -->
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="edt">[NAME LASTNAME]</dc:contributor>
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="cov">[NAME LASTNAME]</dc:contributor>
+
+    <dc:publisher>[PUBLISHER NAME]</dc:publisher>
+    <dc:date opf:event="publication">2012-01-01</dc:date>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <dc:language>en</dc:language>
+
+    <meta name="cover" content="[COVER_NAME].jpg" />
+
+    <!-- UUID generator: http://www.famkruithof.net/uuid/uuidgen -->
+    <dc:identifier opf:scheme="UUID">urn:uuid:[UUID]</dc:identifier>
+
+  </metadata>
+
+  <!-- -->
+  <manifest>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/style.css" id="css" media-type="text/css" />
+    <item href="Text/frontmatter.xhtml" id="frontmatter" media-type="application/xhtml+xml" />
+    <item href="Text/dedication.xhtml" id="dedication" media-type="application/xhtml+xml" />
+    <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml" />
+    <item href="Text/foreword.xhtml" id="foreword" media-type="application/xhtml+xml" />
+    <item href="Text/introduction.xhtml" id="introduction" media-type="application/xhtml+xml" />
+    <item href="Text/chapter01.xhtml" id="chapter-1" media-type="application/xhtml+xml" />
+    <item href="Text/chapter02.xhtml" id="chapter-2" media-type="application/xhtml+xml" />
+    <item href="Text/chapter03.xhtml" id="chapter-3" media-type="application/xhtml+xml" />
+    <item href="Text/chapter04.xhtml" id="chapter-4" media-type="application/xhtml+xml" />
+    <item href="Text/chapter05.xhtml" id="chapter-5" media-type="application/xhtml+xml" />
+    <item href="Text/chapter06.xhtml" id="chapter-6" media-type="application/xhtml+xml" />
+    <item href="Text/endnotes.xhtml" id="endnotes" media-type="application/xhtml+xml" />
+    <item href="Text/acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml" />
+    <item href="Images/image-01.jpg" id="image-01" media-type="image/jpeg" />
+    <item href="Images/image-02.png" id="image-02" media-type="image/png" />
+  </manifest>
+
+  <!-- SPINE 
+
+       Reading order of the (XHTML) contents.
+
+       The spine doesn't have to list every file in the manifest, just the reading order.
+
+       The value for the idref tag in the spine has to match the ID tag for that entry in the manifest.
+       For example, if you have the following reference in your manifest:
+
+          <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+
+       your spine entry would be:
+
+          <itemref idref="chapter-1" />
+
+       -->
+  <spine toc="ncx">
+    <itemref idref="cover" />
+    <itemref idref="frontmatter" />
+    <itemref idref="foreword" />
+    <itemref idref="dedication" />
+    <itemref idref="introduction" />
+    <itemref idref="chapter-1" />
+    <itemref idref="chapter-2" />
+    <itemref idref="chapter-3" />
+    <itemref idref="chapter-4" />
+    <itemref idref="chapter-5" />
+    <itemref idref="chapter-6" />
+    <itemref idref="endnotes" />
+    <itemref idref="acknowledgements" />
+  </spine>
+
+  <!-- -->
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+    <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
+  </guide>
+</package>

@@ -1,0 +1,16 @@
+/* ePub and Kindle Fire Styles */
+
+body {
+  line-height: 1.5em;
+}
+
+p.first {
+  text-indent: 0;
+}
+
+/* Kindle Legacy Specific Styles */
+@media amzn-mobi {
+  p.first {
+    text-indent: 0;
+  }
+}
