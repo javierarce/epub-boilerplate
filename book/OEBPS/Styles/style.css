@@ -6,10 +6,6 @@ p.first {
   text-indent: 0;
 }
 
-#cover-image { 
-  text-align:center;
-}
-
 /* Kindle Legacy Specific Styles */
 @media amzn-mobi {
   p.first {
