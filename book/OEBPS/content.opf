@@ -50,7 +50,10 @@
 
   </metadata>
 
-  <!-- -->
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is not significant.
+  -->
   <manifest>
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
     <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
@@ -73,13 +76,13 @@
     <item href="Images/image-02.png" id="image-02" media-type="image/png" />
   </manifest>
 
-  <!-- SPINE 
+  <!-- SPINE (mandatory)
 
-       Reading order of the (XHTML) contents.
+       The spine element defines the default reading order of the content. It doesn't list every file in the manifest, 
+       just the reading order.
 
-       The spine doesn't have to list every file in the manifest, just the reading order.
+       The value of the idref tag in the spine has to match the ID tag for that entry in the manifest.
 
-       The value for the idref tag in the spine has to match the ID tag for that entry in the manifest.
        For example, if you have the following reference in your manifest:
 
           <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
@@ -92,6 +95,7 @@
   <spine toc="ncx">
     <itemref idref="cover" />
     <itemref idref="frontmatter" />
+    <itemref idref="toc" />
     <itemref idref="foreword" />
     <itemref idref="dedication" />
     <itemref idref="introduction" />
@@ -105,9 +109,30 @@
     <itemref idref="acknowledgements" />
   </spine>
 
-  <!-- -->
+  <!-- GUIDE (optional, recommended by Apple)
+
+        The guide lets you specify the role of the book's files.
+
+        Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
+        colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
+        lot (list of tables), notes, preface, and text.
+
+       -->
   <guide>
     <reference href="Text/cover.xhtml" title="Cover" type="cover" />
     <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
+    <reference href="Text/frontmatter.xhtml" type="copyright-page" />
+    <reference href="Text/foreword.xhtml" type="foreword" />
+    <reference href="Text/dedication.xhtml" type="dedication" />
+    <reference href="Text/introduction.xhtml" type="text" />
+    <reference href="Text/chapter01.xhtml" type="text" />
+    <reference href="Text/chapter02.xhtml" type="text" />
+    <reference href="Text/chapter03.xhtml" type="text" />
+    <reference href="Text/chapter04.xhtml" type="text" />
+    <reference href="Text/chapter05.xhtml" type="text" />
+    <reference href="Text/chapter06.xhtml" type="text" />
+    <reference href="Text/endnotes.xhtml" type="notes" />
+    <reference href="Text/acknowledgements.xhtml" type="acknowledgements" />
   </guide>
+
 </package>
