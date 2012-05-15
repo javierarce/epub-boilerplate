@@ -1,11 +1,13 @@
-/* ePub and Kindle Fire Styles */
-
 body {
   line-height: 1.5em;
 }
 
 p.first {
   text-indent: 0;
+}
+
+#cover-image { 
+  text-align:center;
 }
 
 /* Kindle Legacy Specific Styles */
