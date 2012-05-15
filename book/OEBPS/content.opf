@@ -72,9 +72,6 @@
     <item href="Text/chapter01.xhtml" id="chapter-1" media-type="application/xhtml+xml" />
     <item href="Text/chapter02.xhtml" id="chapter-2" media-type="application/xhtml+xml" />
     <item href="Text/chapter03.xhtml" id="chapter-3" media-type="application/xhtml+xml" />
-    <item href="Text/chapter04.xhtml" id="chapter-4" media-type="application/xhtml+xml" />
-    <item href="Text/chapter05.xhtml" id="chapter-5" media-type="application/xhtml+xml" />
-    <item href="Text/chapter06.xhtml" id="chapter-6" media-type="application/xhtml+xml" />
     <item href="Text/endnotes.xhtml" id="endnotes" media-type="application/xhtml+xml" />
     <item href="Text/acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml" />
     <item href="Images/image-01.jpg" id="image-01" media-type="image/jpeg" />
@@ -109,9 +106,6 @@
     <itemref idref="chapter-1" />
     <itemref idref="chapter-2" />
     <itemref idref="chapter-3" />
-    <itemref idref="chapter-4" />
-    <itemref idref="chapter-5" />
-    <itemref idref="chapter-6" />
     <itemref idref="endnotes" />
     <itemref idref="acknowledgements" />
   </spine>
@@ -137,9 +131,6 @@
     <reference href="Text/chapter01.xhtml" type="text" />
     <reference href="Text/chapter02.xhtml" type="text" />
     <reference href="Text/chapter03.xhtml" type="text" />
-    <reference href="Text/chapter04.xhtml" type="text" />
-    <reference href="Text/chapter05.xhtml" type="text" />
-    <reference href="Text/chapter06.xhtml" type="text" />
     <reference href="Text/endnotes.xhtml" type="notes" />
     <reference href="Text/acknowledgements.xhtml" type="acknowledgements" />
   </guide>

@@ -57,29 +57,11 @@
     </navPoint>
     <navPoint id="navpoint8" playOrder="8">
       <navLabel>
-        <text>Chapter 4</text>
-      </navLabel>
-      <content src="Text/chapter04.xhtml"/>
-    </navPoint>
-    <navPoint id="navpoint9" playOrder="9">
-      <navLabel>
-        <text>Chapter 5</text>
-      </navLabel>
-      <content src="Text/chapter05.xhtml"/>
-    </navPoint>
-    <navPoint id="navpoint10" playOrder="10">
-      <navLabel>
-        <text>Chapter 6</text>
-      </navLabel>
-      <content src="Text/chapter06.xhtml"/>
-    </navPoint>
-    <navPoint id="navpoint15" playOrder="11">
-      <navLabel>
-        <text>Endnotes</text>
+        <text>End notes</text>
       </navLabel>
       <content src="Text/endnotes.xhtml"/>
     </navPoint>
-    <navPoint id="navpoint17" playOrder="12">
+    <navPoint id="navpoint9" playOrder="9">
       <navLabel>
         <text>Acknowledgements</text>
       </navLabel>
