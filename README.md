@@ -21,7 +21,7 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
 This project uses epubcheck to validate the generated ePubs. If the build.sh script complains when running epubcheck, make sure you have java installed and it's in your PATH.
 
-If you need help running epubcheck read this step-by-step guide.
+If you need help running epubcheck read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
 
 ## Use the check script to validate the book.
 
