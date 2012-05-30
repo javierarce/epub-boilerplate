@@ -29,7 +29,7 @@ If you need help running epubcheck read this step-by-step guide.
     
 ## Style
 
-CAVEAT: currently there aren't any defined styles. While I add a basic layout you can use the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
+Caveat lector: currently there aren't any defined styles. While I add a basic layout you can use the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
 
 ## Useful resources
       
