@@ -23,22 +23,22 @@ This project uses epubcheck to validate the generated ePubs. If the build.sh scr
 
 If you need help running epubcheck read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
 
-## Use the check script to validate the book.
+## Using the check script to validate the book.
 
     $ ./check book.epub
     
 ## Style
 
-Caveat lector: currently there aren't any defined styles. While I add a basic layout you can use the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
+*Caveat lector*: currently there aren't any defined styles. While I add a basic layout have a look at the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
 
 ## Useful resources
       
-* <a href="http://idpf.org/epub/30">EPUB 3.0 spec</a></li>
-* <a href="http://wiki.mobileread.com/wiki/Device_Compatibility">Device compatibilty chart</a></li>
-* <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a></li>
-* <a href="http://code.google.com/p/epubcheck">ePub Validator</a></li>
-* <a href="http://www.famkruithof.net/uuid/uuidgen">UUID generator</a></li>
-* <a href="http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php">BISAC Subject Headings List</a></li>
-* <a href="http://blog.threepress.org/2009/11/27/practical-epub-metadata-authorship/">Practical ePub metadata: Authorship</a></li>
-* <a href="http://www.loc.gov/marc/relators">MARC Code List for Relators</a></li>
-
+* [EPUB 3.0 spec](http://idpf.org/epub/30)
+* [Device compatibilty chart](http://wiki.mobileread.com/wiki/Device_Compatibility)
+* [ePub CSS Starter Kit](https://github.com/mattharrison/epub-css-starter-kit)
+* [ePub Validator](http://code.google.com/p/epubcheck)
+* [UUID generator](http://www.famkruithof.net/uuid/uuidgen)
+* [BISAC Subject Headings List](http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php)
+* [Practical ePub metadata: Authorship](http://blog.threepress.org/2009/11/27/practical-epub-metadata-authorship/)
+* [MARC Code List for Relators](http://www.loc.gov/marc/relators)
+* [What Is EPUB 3? An Introduction to the EPUB Specification for Multimedia Publishing](http://shop.oreilly.com/product/0636920022442.do)
