@@ -11,12 +11,45 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
         $ git clone git@github.com:javierarce/epub-boilerplate.git
 
-2. Edit the contents of the ``book`` directory.
+2. Edit the contents of the ``book`` directory<sup>1</sup>.
 
 3. Run the publish script to generate and validate the book:
 
         $ ./publish book
 
+1: You'll find comments inside 
+
+## Structure of a book
+
+Here's the basic structure of the sample book included in the repo:
+
+    ▾ book/
+      ▾ META-INF/
+          com.apple.ibooks.display-options.xml
+          container.xml
+      ▾ OEBPS/
+        ▾ Images/
+            cover.jpg
+            image-01.jpg
+            image-02.png
+        ▾ Styles/
+            style.css
+        ▾ Text/
+            acknowledgements.xhtml
+            chapter01.xhtml
+            chapter02.xhtml
+            chapter03.xhtml
+            cover.xhtml
+            dedication.xhtml
+            endnotes.xhtml
+            foreword.xhtml
+            frontmatter.xhtml
+            introduction.xhtml
+            toc.xhtml
+          content.opf
+          toc.ncx
+        mimetype
+        
 ## ePub validation
 
 This project uses epubcheck to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your PATH.
