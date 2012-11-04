@@ -5,9 +5,9 @@ http://javierarce.github.com/epub-boilerplate
 
 ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
-## How to use it
+## How to use the template
 
-1. Get the template:
+1. Clone the repo:
 
         $ git clone git@github.com:javierarce/epub-boilerplate.git
 
@@ -19,19 +19,23 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
 ## ePub validation
 
-This project uses epubcheck to validate the generated ePubs. If the build.sh script complains when running epubcheck, make sure you have java installed and it's in your PATH.
+This project uses epubcheck to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your PATH.
 
 If you need help running epubcheck read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
 
 ## Using the check script to validate the book.
 
+It's supereasy. Just do: 
+
     $ ./check book.epub
-    
+
+This project currently uses EpubCheck version 3.0-RC-1.
+
 ## Style
 
 *Caveat lector*: currently there aren't any defined styles. While I add a basic layout have a look at the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
 
-## ePub to mobi
+## ePub → mobi
 
 Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``:
 
