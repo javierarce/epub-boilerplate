@@ -11,7 +11,7 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
         $ git clone git@github.com:javierarce/epub-boilerplate.git
 
-2. Edit the contents of the **book** directory.
+2. Edit the contents of the ``book`` directory.
 
 3. Run the publish script to generate and validate the book:
 
@@ -30,6 +30,15 @@ If you need help running epubcheck read this <a href="http://blog.threepress.org
 ## Style
 
 *Caveat lector*: currently there aren't any defined styles. While I add a basic layout have a look at the <a href="https://github.com/mattharrison/epub-css-starter-kit">ePub CSS Starter Kit</a>.
+
+## ePub to mobi
+
+Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``:
+
+1. Download (KindleGen)[http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211].
+2. Uncompress the file.
+3. Copy the ``kindlegen`` executable to the ``bin`` folder.
+4. Run ``./bin/kindlegen book.epub``.
 
 ## Useful resources
       
