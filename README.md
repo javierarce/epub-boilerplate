@@ -35,7 +35,7 @@ If you need help running epubcheck read this <a href="http://blog.threepress.org
 
 Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``:
 
-1. Download (KindleGen)[http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211].
+1. Download [KindleGen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211).
 2. Uncompress the file.
 3. Copy the ``kindlegen`` executable to the ``bin`` folder.
 4. Run ``./bin/kindlegen book.epub``.
