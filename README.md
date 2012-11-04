@@ -17,11 +17,11 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
         $ ./publish book
 
-1: You'll find comments inside 
+1: You'll find comments inside several files to guide you.
 
 ## Structure of a book
 
-Here's the basic structure of the sample book included in the repo:
+Here's the structure of the sample book included in the repo:
 
     ▾ book/
       ▾ META-INF/
