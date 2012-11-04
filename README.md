@@ -15,7 +15,7 @@ ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
 3. Run the publish script to generate and validate the book:
 
-        $ ./publish book.epub
+        $ ./publish book
 
 ## ePub validation
 
