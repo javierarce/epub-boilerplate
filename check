@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar bin/epubcheck-3.0b5.jar $1
+java -jar bin/epubcheck-3.0-RC-1.jar $1
