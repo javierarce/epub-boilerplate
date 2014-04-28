@@ -1,4 +1,4 @@
-ePub-Boilerplate
+ePub Boilerplate
 ================
 
 http://javierarce.github.com/epub-boilerplate
@@ -52,7 +52,7 @@ Here's the structure of the sample book included in the repo:
         
 ## ePub validation
 
-This project uses epubcheck to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your PATH.
+This project uses [epubcheck](https://github.com/IDPF/epubcheck) to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your PATH.
 
 If you need help running epubcheck read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
 
@@ -82,7 +82,7 @@ Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``
 * [EPUB 3.0 spec](http://idpf.org/epub/30)
 * [Device compatibilty chart](http://wiki.mobileread.com/wiki/Device_Compatibility)
 * [ePub CSS Starter Kit](https://github.com/mattharrison/epub-css-starter-kit)
-* [ePub Validator](http://code.google.com/p/epubcheck)
+* [ePub Validator](https://github.com/IDPF/epubcheck)
 * [UUID generator](http://www.famkruithof.net/uuid/uuidgen)
 * [BISAC Subject Headings List](http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php)
 * [Practical ePub metadata: Authorship](http://blog.threepress.org/2009/11/27/practical-epub-metadata-authorship/)
