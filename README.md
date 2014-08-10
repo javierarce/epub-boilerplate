@@ -5,10 +5,6 @@ http://javierarce.github.com/epub-boilerplate
 
 ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
-<script data-gittip-username="javier"
-        data-gittip-widget="button"
-        src="//gttp.co/v1.js"></script>
-
 ## How to use the template
 
 1. Clone the repo:
