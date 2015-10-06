@@ -3,4 +3,4 @@ rm -f $1.epub
 cd $1
 zip -q0X "../$1.epub" mimetype
 zip -qXr9D "../$1.epub" * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
-java -jar ../bin/epubcheck-3.0-RC-1.jar ../$1.epub
+java -jar ../bin/epubcheck.jar ../$1.epub
