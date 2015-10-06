@@ -1,8 +1,6 @@
 ePub Boilerplate
 ================
 
-http://javierarce.github.com/epub-boilerplate
-
 ePub Boilerplate is a simple template that helps you build ePub-formatted books.
 
 ## How to use the template
@@ -88,3 +86,4 @@ Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``
 * [Practical ePub metadata: Authorship](http://blog.threepress.org/2009/11/27/practical-epub-metadata-authorship/)
 * [MARC Code List for Relators](http://www.loc.gov/marc/relators)
 * [What Is EPUB 3? An Introduction to the EPUB Specification for Multimedia Publishing](http://shop.oreilly.com/product/0636920022442.do)
+* [99problems: A global list of e-reader rendering bugs](https://github.com/dvschultz/99problems)
