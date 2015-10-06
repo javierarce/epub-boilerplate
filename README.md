@@ -1,7 +1,7 @@
 ePub Boilerplate
 ================
 
-ePub Boilerplate is a simple template that helps you build ePub-formatted books.
+A simple template that helps you build ePub-formatted books.
 
 ## How to use the template
 
@@ -47,16 +47,16 @@ Here's the structure of the sample book included in the repo:
           content.opf
           toc.ncx
         mimetype
-        
+
 ## ePub validation
 
-This project uses [epubcheck](https://github.com/IDPF/epubcheck) to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your PATH.
+This project uses [epubcheck](https://github.com/IDPF/epubcheck) to validate the generated ePubs. If the ``build.sh`` script complains when running ``epubcheck``, make sure you have java installed and it's in your ``PATH``.
 
-If you need help running epubcheck read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
+If you need help running ``epubcheck`` read this <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">step-by-step guide</a>.
 
-## Using the check script to validate the book.
+## How to check your ebook
 
-It's supereasy. Just do: 
+It's super easy. Just do:
 
     $ ./check book.epub
 
@@ -68,7 +68,7 @@ This project currently uses EpubCheck version 4.0.
 
 ## ePub → mobi
 
-Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``:
+If you want to transform your ``.epub`` file to ``.mobi`` do this:
 
 1. Download [KindleGen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211).
 2. Uncompress the file.
@@ -76,14 +76,23 @@ Here's what you can do if you want to transform your ``.epub`` file to ``.mobi``
 4. Run ``./bin/kindlegen book.epub``.
 
 ## Useful resources
-      
+
+#### EPUB 3
 * [EPUB 3.0 spec](http://idpf.org/epub/30)
-* [Device compatibilty chart](http://wiki.mobileread.com/wiki/Device_Compatibility)
-* [ePub CSS Starter Kit](https://github.com/mattharrison/epub-css-starter-kit)
-* [ePub Validator](https://github.com/IDPF/epubcheck)
+* [What Is EPUB 3? An Introduction to the EPUB Specification for Multimedia Publishing](http://shop.oreilly.com/product/0636920022442.do)
+
+#### Metadata
 * [UUID generator](http://www.famkruithof.net/uuid/uuidgen)
 * [BISAC Subject Headings List](http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php)
 * [Practical ePub metadata: Authorship](http://blog.threepress.org/2009/11/27/practical-epub-metadata-authorship/)
 * [MARC Code List for Relators](http://www.loc.gov/marc/relators)
-* [What Is EPUB 3? An Introduction to the EPUB Specification for Multimedia Publishing](http://shop.oreilly.com/product/0636920022442.do)
+
+#### Styling
+* [ePub CSS Starter Kit](https://github.com/mattharrison/epub-css-starter-kit)
+
+#### Validation
+* [ePub Validator](https://github.com/IDPF/epubcheck)
+
+#### Compatibility and rendering issues
+* [Device compatibilty chart](http://wiki.mobileread.com/wiki/Device_Compatibility)
 * [99problems: A global list of e-reader rendering bugs](https://github.com/dvschultz/99problems)
