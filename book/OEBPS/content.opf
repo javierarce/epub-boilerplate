@@ -7,7 +7,7 @@
     <dc:title>Title</dc:title>
     <dc:rights>Copyright © [YEAR] [COPYRIGHT HOLDER]. All rights reserved.</dc:rights>
 
-    <!-- BISAC Subject Headings List: http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php-->
+    <!-- BISAC Subject Headings List: http://bisg.org/?page=BISACFaQ -->
     <dc:subject>[LIST / OF / SUBJECTS]</dc:subject>
 
     <dc:creator opf:file-as="[LASTNAME, NAME]" opf:role="aut">[NAME LASTNAME]</dc:creator>
